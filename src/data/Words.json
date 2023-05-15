@@ -1,0 +1,21 @@
+[
+    {
+      "__typename": "Product",
+      "name": "Pikachu",
+      "slug": "pikachu",
+      "description": "Thunder mouse"
+    },
+    {
+      "__typename": "Product",
+      "name": "Ticka",
+      "slug": "ticka",
+      "description": "Small thunder mouse"
+    },
+    {
+      "__typename": "Product",
+      "name": "Pika",
+      "slug": "pika",
+      "description": "Tiny thunder mouse"
+    }
+  ]
+  
