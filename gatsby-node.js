@@ -35,13 +35,8 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  console.log("sand");
-  //   console.log(data2.data.allContentfulWord.nodes);
   const data3 = data2.data.allContentfulWord.nodes;
   const productTemplate = path.resolve("./src/templates/word.tsx");
-
-  console.log("cheddaar");
-  console.log(data3);
   // Creates each page
   // @ts-ignore
   data3.forEach((word) => {

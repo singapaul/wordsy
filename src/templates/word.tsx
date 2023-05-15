@@ -10,6 +10,8 @@ const WordPage = ({ data }: any) => {
     <Page title={""}>
       <p>{contentfulWord.title}</p>
       <p>{contentfulWord.definition}</p>
+      <p>{contentfulWord.countryOfOrigin}</p>
+      <p>{contentfulWord.phoneticSpelling}</p>
     </Page>
   );
 };
