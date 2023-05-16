@@ -2,7 +2,7 @@
 2. Initiate git - DONE
 3. make a figma - DONE
 4. update content - ???
-5. Integrate Styling
+5. Integrate Styling - using STYLED COMPONENTS BABY!
 6. Integrate theming with a light/dark mode
 7. SEO components and head components e.t.c.
 8. Refactor Gatsby Node.JS to look like workshop with destructuring.

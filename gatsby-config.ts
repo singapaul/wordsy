@@ -28,6 +28,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-image",
     "gatsby-plugin-sass",
     "gatsby-transformer-json",
+    "gatsby-plugin-styled-components",
   ],
 };
 

@@ -3,13 +3,12 @@ import React from "react";
 
 export type PageProps = {
   children: React.ReactNode;
-  title: React.ReactNode;
+  title?: React.ReactNode;
 };
 
-const Page = ({ children, title }: PageProps) => {
+const Page = ({ children }: PageProps) => {
   return (
     <main>
-      <h1>{title}</h1>
       <div>{children}</div>
     </main>
   );
