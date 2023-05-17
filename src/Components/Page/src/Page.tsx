@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "../../Layout/Footer";
 import Header from "../../Layout/Header";
-// import * as styles from "./Page.module.scss";
+
+import * as styles from "./Page.module.scss";
 
 export type PageProps = {
   children: React.ReactNode;
@@ -10,7 +11,7 @@ export type PageProps = {
 
 const Page = ({ children }: PageProps) => {
   return (
-    <main>
+    <main className={styles.demo}>
       <Header />
       <main>{children}</main>
       <Footer />
