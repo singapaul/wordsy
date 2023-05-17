@@ -1,4 +1,4 @@
-import Page from "../Components/Page";
+import Page from "../components/Layout/Page";
 import { graphql } from "gatsby";
 import React from "react";
 
