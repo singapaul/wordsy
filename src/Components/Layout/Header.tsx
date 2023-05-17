@@ -1,18 +1,18 @@
 import React from "react";
+import * as styles from "./Header.module.scss";
 import DarkModeToggle from "../DarkModeToggle";
-import "./Header.module.scss";
 
 const Header = () => {
   return (
     <header>
-      <nav>
-        <p>Site Title</p>
-        <ul>
-          <li>
-            <DarkModeToggle />
+      <nav className={styles.navBar}>
+        <p className={styles.title}>Site Title</p>
+        <ul className={styles.navBarList}>
+          <li className={styles.listItem}>
+            <DarkModeToggle className={styles.darkModeButton} />
           </li>
-          <li>A-Z</li>
-          <li>Shuffle</li>
+          <li className={styles.listItem}>A-Z</li>
+          <li className={styles.listItem}>Shuffle</li>
         </ul>
       </nav>
     </header>

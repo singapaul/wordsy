@@ -1,11 +1,28 @@
-nav {
+.navBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-style: "playfair";
 }
 
-p {
-    color: blueviolet;
+.navBarList{
+  list-style: none;
 }
+
+.listItem {
+  display: inline-block;
+  padding: 10px;
+}
+
+.darkModeButton {
+  background: none;
+  border: none;
+}
+
+.title{
+  font-size: 36px;
+  font-family: "Playfair display", Times, serif;
+}
+
 
