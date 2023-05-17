@@ -29,6 +29,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sass",
     "gatsby-transformer-json",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-use-dark-mode",
   ],
 };
 

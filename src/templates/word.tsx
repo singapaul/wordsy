@@ -7,7 +7,7 @@ const WordPage = ({ data }: any) => {
   const { contentfulWord } = data;
 
   return (
-    <Page title={""}>
+    <Page>
       <p>{contentfulWord.title}</p>
       <p>{contentfulWord.definition}</p>
       <p>{contentfulWord.countryOfOrigin}</p>
