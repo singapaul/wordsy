@@ -29,6 +29,7 @@
     "gatsby-source-contentful": "^8.9.1",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-json": "^5.9.0",
+    "gatsby-transformer-typescript-css-modules": "^1.0.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.62.1",

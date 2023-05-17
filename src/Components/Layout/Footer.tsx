@@ -5,12 +5,12 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Footer.module.scss";
+import * as FooterStyles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
     <footer>
-      <p>Vanity Text</p>
+      <p className="footer-text">Vanity Text</p>
       <ul className="social-links">
         <li>
           <a
