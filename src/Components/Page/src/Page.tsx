@@ -1,4 +1,5 @@
 import React from "react";
+import DarkModeToggle from "../../DarkModeToggle";
 // import * as styles from "./Page.module.scss";
 
 export type PageProps = {
@@ -9,6 +10,7 @@ export type PageProps = {
 const Page = ({ children }: PageProps) => {
   return (
     <main>
+      <DarkModeToggle />
       <div>{children}</div>
     </main>
   );

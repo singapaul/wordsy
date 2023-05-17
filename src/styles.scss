@@ -1,0 +1,79 @@
+html,
+body,
+#___gatsby {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.light-mode {
+  background-color: rgba(228, 221, 193, 0.65);
+  color: rgb(24, 33, 58);
+  transition: background-color 1s ease;
+}
+
+body.dark-mode {
+  background-color: rgb(24, 33, 58);
+  color: rgba(197, 183, 183, 0.65);
+}
+
+// .toggle-icons {
+//   display: flex;
+//   margin-top: 10px;
+// }
+
+// button {
+//   font-size: 1.2em;
+// }
+
+// #sun {
+//   background-color: rgb(238, 238, 22);
+//   border: 1px solid rgb(238, 238, 22);
+//   color: black;
+//   border-radius: 50%;
+// }
+
+// #moon {
+//   background-color: rgb(17, 17, 119);
+//   border: 1px solid rgb(17, 17, 119);
+//   color: white;
+// }
+
+// .toggle-control {
+//   position: relative;
+//   padding: 0 4px;
+//   display: flex;
+//   align-items: center;
+//   margin-left: 4px;
+// }
+
+// input[type="checkbox"].dmcheck {
+//   width: 60px;
+//   height: 10px;
+//   background: rgb(27, 25, 25);
+//   position: relative;
+//   border-radius: 4px;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+//   cursor: pointer;
+//   vertical-align: 2px;
+//   outline: none;
+
+//   &:checked + label {
+//     left: 55px;
+//   }
+
+//   & + label {
+//     display: inline-block;
+//     width: 15px;
+//     height: 15px;
+//     border-radius: 50%;
+//     transition: all 0.5s ease;
+//     cursor: pointer;
+//     position: absolute;
+//     left: 2px;
+//     background-color: #ffffff;
+//   }
+// }
