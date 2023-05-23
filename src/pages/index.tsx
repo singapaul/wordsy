@@ -1,11 +1,29 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Page from "../components/Layout/Page";
+import * as styles from "./home.module.scss";
+import useDarkMode from "use-dark-mode";
 
 const IndexPage: React.FC<PageProps> = () => {
+  const darkMode = useDarkMode(true);
   return (
-    <Page>
-      <main>AN EMPTY PAGE FOR NOW!</main>
+    <Page className={styles.body}>
+      <h1 className={styles.heading}>WORDY</h1>
+      <h2 className={styles.subHeading}>Really silly words</h2>
+      <p className={styles.text}>
+        Inspired by a conversation between a Spaniard and a Welshman in a
+        Hungarian bar over the meaning of a Finnish term for getting drunk at
+        home alone in your underpants. WORDY was created to help humanity learn
+        more silly words.
+      </p>
+      <button
+        onClick={() => {
+          console.log(darkMode.value);
+        }}
+        className={darkMode.value ? styles.darkButton : styles.lightButton}
+      >
+        Show me a word
+      </button>
     </Page>
   );
 };

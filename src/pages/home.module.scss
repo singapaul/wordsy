@@ -1,4 +1,5 @@
 .body {
+  font-size: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,27 +16,20 @@
 }
 
 .heading {
-  width: 100%;
-  font-size: 55px;
-  text-align: center;
+  font-size: 86px;
   font-family: "Playfair Display";
-  word-wrap: break-word;
 }
 
 .subHeading {
   font-size: 24px;
   font-family: "Playfair Display";
 }
-
-.countryHeading {
-  font-size: 16px;
-  font-family: "Playfair Display";
-}
-
 .text {
   font-size: 20px;
   font-family: "Quattrocento", serif;
   text-align: justify;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .darkButton {
@@ -48,6 +42,11 @@
   margin-top: 15px;
 }
 
+.darkButton:hover {
+  background: white;
+  color: black;
+}
+
 .lightButton {
   background: none;
   border: 2px solid black;
@@ -56,11 +55,6 @@
   padding: 5px 30px;
   font-size: 24px;
   margin-top: 15px;
-}
-
-.darkButton:hover {
-  background: white;
-  color: black;
 }
 
 .lightButton:hover {
