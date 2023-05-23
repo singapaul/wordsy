@@ -9,7 +9,7 @@ export type PageProps = {
   className?: any;
 };
 
-const LayoutComp = ({ children, className }: PageProps) => {
+const LayoutComp = ({ children, className }: any) => {
   return (
     <main className={styles.page}>
       <Header />
