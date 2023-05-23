@@ -1,42 +1,29 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import * as FooterStyles from "./Footer.module.scss";
+import * as styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
-    <footer>
-      <p className="footer-text">Vanity Text</p>
-      <ul className="social-links">
-        <li>
+    <footer className={styles.footer}>
+      <p className={styles.footerText}>Designed by Paul Hardman 2023</p>
+      <ul className={styles.footerList}>
+        <li className={styles.footerListItem}>
           <a
-            href="https://example.com/facebook"
+            href="https://www.linkedin.com/in/paul-hardman-1199b6108/"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.icon}
           >
-            <FontAwesomeIcon icon={faFacebook} />
+            LinkedIn
           </a>
         </li>
-        <li>
+        <li className={styles.footerListItem}>
           <a
-            href="https://example.com/twitter"
+            href="https://github.com/singapaul"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.icon}
           >
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://example.com/instagram"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faInstagram} />
+            Github
           </a>
         </li>
       </ul>

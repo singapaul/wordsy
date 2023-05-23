@@ -1,7 +1,8 @@
-.demo .light-mode {
-  border: 1px solid red;
-}
-
-.demo .dark-mode {
-  border: 1px solid blue;
+.page{
+    min-height: 100vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-family: 'Courier New', Courier, monospace;
+   padding: 0 20px;
 }

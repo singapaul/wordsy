@@ -1,0 +1,14 @@
+.wordLink {
+  display: block;
+  font-size: 56px;
+  word-wrap: break-word;
+  margin: 25px 2px;
+}
+
+.wordLink:hover {
+  text-decoration: underline;
+}
+
+.list {
+  list-style-type: none;
+}
