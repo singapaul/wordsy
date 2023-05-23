@@ -9,7 +9,7 @@ export type PageProps = {
   className?: any;
 };
 
-const Page = ({ children, className }: PageProps) => {
+const LayoutComp = ({ children, className }: PageProps) => {
   return (
     <main className={styles.page}>
       <Header />
@@ -19,4 +19,4 @@ const Page = ({ children, className }: PageProps) => {
   );
 };
 
-export default Page;
+export default LayoutComp;

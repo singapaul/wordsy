@@ -1,4 +1,4 @@
-import Page from "../components/Layout/Page";
+import LayoutComp from "../components/LayoutComp";
 import { HeadFC, Link, graphql } from "gatsby";
 import React from "react";
 import * as styles from "./word.module.scss";
@@ -14,7 +14,7 @@ const WordPage = ({ data }: any) => {
   const randomWord = wordlist[Math.floor(Math.random() * wordlist.length)].slug;
 
   return (
-    <Page className={styles.body}>
+    <LayoutComp className={styles.body}>
       <h1 className={styles.heading}>{contentfulWord.title}</h1>
       <h2 className={styles.subHeading}>{contentfulWord.phoneticSpelling}</h2>
       <h3 className={styles.countryHeading}>
@@ -29,7 +29,7 @@ const WordPage = ({ data }: any) => {
           Shuffle
         </button>
       </Link>
-    </Page>
+    </LayoutComp>
   );
 };
 

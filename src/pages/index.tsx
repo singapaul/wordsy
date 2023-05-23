@@ -1,6 +1,6 @@
 import * as React from "react";
 import { HeadFC, Link, PageProps, graphql } from "gatsby";
-import Page from "../components/Layout/Page";
+import LayoutComp from "../components/LayoutComp";
 import * as styles from "./home.module.scss";
 import useDarkMode from "use-dark-mode";
 
@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = ({ data }: any) => {
   const randomWord =
     wordArray[Math.floor(Math.random() * wordArray.length)].slug;
   return (
-    <Page className={styles.body}>
+    <LayoutComp className={styles.body}>
       <h1 className={styles.heading}>WORDY</h1>
       <h2 className={styles.subHeading}>Really silly words</h2>
       <p className={styles.text}>
@@ -26,7 +26,7 @@ const IndexPage: React.FC<PageProps> = ({ data }: any) => {
           Show me a word
         </button>
       </Link>
-    </Page>
+    </LayoutComp>
   );
 };
 

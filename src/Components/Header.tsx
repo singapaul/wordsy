@@ -1,6 +1,6 @@
 import React from "react";
 import * as styles from "./Header.module.scss";
-import DarkModeToggle from "../DarkModeToggle";
+import DarkModeToggle from "./DarkModeToggle";
 import useDarkMode from "use-dark-mode";
 import { Link } from "gatsby";
 

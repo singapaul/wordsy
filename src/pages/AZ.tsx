@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Link, HeadFC, PageProps, graphql } from "gatsby";
-import Page from "../components/Layout/Page";
+import LayoutComp from "../components/LayoutComp";
 import * as styles from "./AZ.module.scss";
 
 const AZPage: React.FC<PageProps> = ({ data }: any) => {
   const wordArray = data.allContentfulWord.nodes;
   return (
-    <Page className={styles.body}>
+    <LayoutComp className={styles.body}>
       <ul className={styles.list}>
         {wordArray.map((word: any) => {
           return (
@@ -18,7 +18,7 @@ const AZPage: React.FC<PageProps> = ({ data }: any) => {
           );
         })}
       </ul>
-    </Page>
+    </LayoutComp>
   );
 };
 
