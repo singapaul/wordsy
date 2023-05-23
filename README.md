@@ -8,8 +8,8 @@ Check it out here: https://wordsy-akcb.vercel.app/
 
 To do:
 
-1. Fix hydration errors
 2. Content jumping around on page
+3. Add favicon!
 
 Nice to haves
 
@@ -31,6 +31,7 @@ Completed items
 8. Implement Link tags for site navigation - DONE
 9. Clean up READMe file and add picture for profile - DONE
 10. Make shuffle work - DONE
+11. Fix hydration errors - DONE
 
 Design link here:
 
