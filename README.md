@@ -1,8 +1,6 @@
 To do:
 
-3. Pull Request this branch into main!
-4. Make shuffle work
-5. Clean up READMe file and add picture for profile
+1. Clean up READMe file and add picture for profile
 
 Nice to haves
 
@@ -15,13 +13,14 @@ Nice to haves
 Completed items
 
 1. Make A-Z Page - DONE
-1. Integrate CMS - add slugs - DONE
-1. Initiate git - DONE
-1. make a figma - DONE
-1. Breakdown components and Integrate Styling - DONE
-1. Integrate theming with a light/dark mode - Done
-1. Make home page - DONE
-1. Implement Link tags for site navigation - DONE
+2. Integrate CMS - add slugs - DONE
+3. Initiate git - DONE
+4. make a figma - DONE
+5. Breakdown components and Integrate Styling - DONE
+6. Integrate theming with a light/dark mode - Done
+7. Make home page - DONE
+8. Implement Link tags for site navigation - DONE
+9. Make shuffle work
 
 Design link here:
 
