@@ -10,6 +10,9 @@ Check it out here: https://wordsy-akcb.vercel.app/
 
 To do:
 
+1. Fix hydration errors
+2. Content jumping around on page
+
 Nice to haves
 
 1. Add SEO/Head content
