@@ -1,5 +1,5 @@
 import Page from "../components/Layout/Page";
-import { graphql } from "gatsby";
+import { HeadFC, graphql } from "gatsby";
 import React from "react";
 import * as styles from "./word.module.scss";
 import Bars from "../animations/bars";
@@ -34,6 +34,8 @@ const WordPage = ({ data }: any) => {
 };
 
 export default WordPage;
+
+export const Head: HeadFC = ({ data }: any) => <title>WORDY</title>;
 
 export const query = graphql`
   query thisCouldBeAnyText($id: String!) {
