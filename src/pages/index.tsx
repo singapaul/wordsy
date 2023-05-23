@@ -19,7 +19,7 @@ const IndexPage: React.FC<PageProps> = ({ data }: any) => {
         home alone in your underpants. WORDY was created to help humanity learn
         more silly words.
       </p>
-      <Link to={`${randomWord}`}>
+      <Link to={`/${randomWord}`}>
         <button
           className={darkMode.value ? styles.darkButton : styles.lightButton}
         >

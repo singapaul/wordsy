@@ -1,5 +1,5 @@
 import Page from "../components/Layout/Page";
-import { HeadFC, graphql } from "gatsby";
+import { HeadFC, Link, graphql } from "gatsby";
 import React from "react";
 import * as styles from "./word.module.scss";
 import Bars from "../animations/bars";
@@ -8,11 +8,10 @@ import useDarkMode from "use-dark-mode";
 // @ts-ignore
 const WordPage = ({ data }: any) => {
   const darkMode = useDarkMode(true);
-  const getValue = () => {
-    console.log("Go to a random page route");
-  };
 
   const { contentfulWord } = data;
+  const wordlist = data.allContentfulWord.nodes;
+  const randomWord = wordlist[Math.floor(Math.random() * wordlist.length)].slug;
 
   return (
     <Page className={styles.body}>
@@ -23,19 +22,20 @@ const WordPage = ({ data }: any) => {
       </h3>
       <p className={styles.text}>{contentfulWord.definition}</p>
       <Bars />
-      <button
-        className={darkMode.value ? styles.darkButton : styles.lightButton}
-        onClick={getValue}
-      >
-        Shuffle
-      </button>
+      <Link to={`/${randomWord}`}>
+        <button
+          className={darkMode.value ? styles.darkButton : styles.lightButton}
+        >
+          Shuffle
+        </button>
+      </Link>
     </Page>
   );
 };
 
 export default WordPage;
 
-export const Head: HeadFC = ({ data }: any) => <title>WORDY</title>;
+export const Head: HeadFC = () => <title>WORDY</title>;
 
 export const query = graphql`
   query thisCouldBeAnyText($id: String!) {
@@ -44,6 +44,12 @@ export const query = graphql`
       definition
       countryOfOrigin
       phoneticSpelling
+    }
+    allContentfulWord {
+      nodes {
+        contentful_id
+        slug
+      }
     }
   }
 `;

@@ -1,6 +1,5 @@
 To do:
 
-2. Implement Link tags for site navigation
 3. Pull Request this branch into main!
 4. Make shuffle work
 5. Clean up READMe file and add picture for profile
@@ -22,6 +21,7 @@ Completed items
 1. Breakdown components and Integrate Styling - DONE
 1. Integrate theming with a light/dark mode - Done
 1. Make home page - DONE
+1. Implement Link tags for site navigation - DONE
 
 Design link here:
 
