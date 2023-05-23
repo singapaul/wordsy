@@ -1,23 +1,18 @@
-footer {
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 10px;
+  margin-top: 40px;
 }
 
-ul  {
+.footerList {
   list-style: none;
   padding: 0;
   margin: 0;
-
-  li {
-    display: inline-block;
-    margin-right: 10px;
-  }
 }
 
-.footer-text{
-    color: black;
-}
-p {
-    color: black
+.footerListItem{
+  display: inline-block;
+margin: 5px
 }

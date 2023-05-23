@@ -1,19 +1,19 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-
 import * as styles from "./Page.module.scss";
 
 export type PageProps = {
   children: React.ReactNode;
   title?: React.ReactNode;
+  className?: any;
 };
 
-const Page = ({ children }: PageProps) => {
+const Page = ({ children, className }: PageProps) => {
   return (
-    <main className={styles.demo}>
+    <main className={styles.page}>
       <Header />
-      <main>{children}</main>
+      <body className={className}>{children}</body>
       <Footer />
     </main>
   );

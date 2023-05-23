@@ -3,26 +3,26 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-style: "playfair";
 }
 
-.navBarList{
+.navBarList {
   list-style: none;
 }
 
 .listItem {
   display: inline-block;
   padding: 10px;
+  font-size: 16px;
+  font-family: "Quattrocento", serif;
 }
 
 .darkModeButton {
   background: none;
   border: none;
+  font-family: "Playfair Display";
 }
 
-.title{
+.title {
   font-size: 36px;
-  font-family: "Playfair display", Times, serif;
+  font-family: "Playfair Display";
 }
-
-
