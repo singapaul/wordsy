@@ -21,7 +21,7 @@ const WordPage = ({ data }: any) => {
         {contentfulWord.countryOfOrigin}
       </h3>
       <p className={styles.text}>{contentfulWord.definition}</p>
-      <Bars />
+      {/* <Bars /> */}
       <Link to={`/${randomWord}`}>
         <button
           className={darkMode.value ? styles.darkButton : styles.lightButton}
