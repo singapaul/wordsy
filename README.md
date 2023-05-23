@@ -1,3 +1,12 @@
+
+<img width="503" alt="Screenshot 2023-05-23 at 14 38 26" src="https://github.com/singapaul/wordsy/assets/89204135/f275168c-a316-49fb-95fb-dba06abd7375">
+<img width="509" alt="Screenshot 2023-05-23 at 14 38 17" src="https://github.com/singapaul/wordsy/assets/89204135/2e7fbed4-1ddd-486d-babf-ee5b62d631c5">
+<img width="368" alt="Screenshot 2023-05-23 at 14 36 50" src="https://github.com/singapaul/wordsy/assets/89204135/0d4716f1-00f3-469b-a023-7fd0f5756f48">
+
+
+
+
+
 To do:
 
 1. Clean up READMe file and add picture for profile
