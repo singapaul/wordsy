@@ -46,4 +46,5 @@ notes:
 
 Troubleshooting:
 
-https://www.gatsbyjs.com/docs/how-to/local-development/troubleshooting-common-errors/#problems-with-the-cache
+- hydration errors can happen if you put a div in a p, or a body within a main tag
+  https://www.gatsbyjs.com/docs/how-to/local-development/troubleshooting-common-errors/#problems-with-the-cache

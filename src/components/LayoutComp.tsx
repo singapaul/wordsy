@@ -11,11 +11,11 @@ export type PageProps = {
 
 const LayoutComp = ({ children, className }: any) => {
   return (
-    <main className={styles.page}>
+    <div className={styles.page}>
       <Header />
-      <body className={className}>{children}</body>
+      <div className={className}>{children}</div>
       <Footer />
-    </main>
+    </div>
   );
 };
 
