@@ -6,7 +6,7 @@ import * as styles from "./AZ.module.scss";
 const AZPage: React.FC<PageProps> = ({ data }: any) => {
   const wordArray = data.allContentfulWord.nodes;
   return (
-    <LayoutComp className={styles.body}>
+    <LayoutComp>
       <ul className={styles.list}>
         {wordArray.map((word: any) => {
           return (
