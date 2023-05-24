@@ -14,10 +14,9 @@ To do:
 Nice to haves
 
 1. Add SEO/Head content
-2. Upload a JSON of more words
-3. Refactor Gatsby Node.JS to look like workshop with destructuring.
-4. Add a flag to each country
-5. How many people are visiting the site?
+2. Refactor Gatsby Node.JS to look like workshop with destructuring.
+3. Add a flag to each country
+4. How many people are visiting the site?
 
 Completed items
 
@@ -32,6 +31,7 @@ Completed items
 9. Clean up READMe file and add picture for profile - DONE
 10. Make shuffle work - DONE
 11. Fix hydration errors - DONE
+12. Upload a JSON of more words - DONE
 
 Design link here:
 
