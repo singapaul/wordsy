@@ -32,6 +32,7 @@ Completed items
 10. Make shuffle work - DONE
 11. Fix hydration errors - DONE
 12. Upload a JSON of more words - DONE
+13. A-Z is now in order - DONE
 
 Design link here:
 

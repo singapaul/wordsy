@@ -3,8 +3,21 @@ import { Link, HeadFC, PageProps, graphql } from "gatsby";
 import LayoutComp from "../components/LayoutComp";
 import * as styles from "./AZ.module.scss";
 
+// @ts-ignore
+const compare = (a, b) => {
+  if (a.title < b.title) {
+    return -1;
+  }
+  if (a.title > b.title) {
+    return 1;
+  }
+  return 0;
+};
+
 const AZPage: React.FC<PageProps> = ({ data }: any) => {
   const wordArray = data.allContentfulWord.nodes;
+  wordArray.sort(compare);
+
   return (
     <LayoutComp>
       <ul className={styles.list}>
